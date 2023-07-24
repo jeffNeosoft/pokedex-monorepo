@@ -19,6 +19,7 @@ This repository contains a Pokedex project created using React.js and organized 
   - [utils](#utils)
 - [Projects](#projects)
   - [pokedex](#pokedex)
+- [Appliction Scripts](#application-scripts)
 - [Contributing](#contributing)
 
 ## Getting Started
@@ -80,7 +81,7 @@ yarn dev
 yarn production
 ```
 
-3. Pun the appliction in docker:
+3. Run the appliction in docker:
 
 ```bash
 # Image Creation
