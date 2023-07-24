@@ -1,0 +1,71 @@
+export const styles = {
+  root: {
+    position: "absolute",
+    top: "70%",
+    left: "50%",
+    transform: "translate(-50%,-0%)",
+    "*,*:before,*:after": {
+      WebkitBoxSizing: "border-box",
+      MozBoxSizing: "border-box",
+      boxSizing: "border-box",
+    },
+    "@keyframes blink": {
+      from: { background: "#eee" },
+      to: { background: "#e74c3c" },
+    },
+    "@keyframes shake": {
+      "0": { transform: "translate(0, 0) rotate(0)" },
+      "20%": { transform: "translate(-10px, 0) rotate(-20deg)" },
+      "30%": { transform: "translate(10px, 0) rotate(20deg)" },
+      "50%": { transform: "translate(-10px, 0) rotate(-15deg)" },
+      "60%": { transform: "translate(10px, 0) rotate(15deg)" },
+      "100%": { transform: "translate(0, 0) rotate(0)" },
+    },
+    "@keyframes fall": {
+      "0%": { top: "-200px" },
+      "60%": { top: "0" },
+      "80%": { top: "-20px" },
+      "100%": { top: "0" },
+    },
+  },
+  pokeball: {
+    position: "relative",
+    width: "150px",
+    height: "150px",
+    background: "#fff",
+    border: "10px solid #000",
+    borderRadius: "50%",
+    overflow: "hidden",
+    boxShadow: "inset -10px 10px 0 10px #ccc",
+    animation:
+      "fall .25s ease-in-out, shake 1.25s cubic-bezier(.36,.07,.19,.97) infinite",
+    "&::before,::after": {
+      content: '""',
+      position: "absolute",
+    },
+    "&::before": {
+      background: "red",
+      width: "100%",
+      height: "50%",
+    },
+    "&::after": {
+      top: "calc(50% - 10px)",
+      width: "100%",
+      height: "20px",
+      background: "#000",
+    },
+  },
+  pokeballButton: {
+    position: "absolute",
+    top: "calc(50% - 20px)",
+    left: "calc(50% - 20px)",
+    width: "40px",
+    height: "40px",
+    background: "#7f8c8d",
+    border: "10px solid #fff",
+    borderRadius: "50%",
+    zIndex: "10",
+    boxShadow: "0 0 0 10px black",
+    animation: "blink .5s infinite",
+  },
+};

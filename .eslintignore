@@ -1,0 +1,11 @@
+.husky
+.dockerignore
+node_modules
+packages/*/node_modules
+packages/*/dist
+packages/*/coverage
+projects/*/.next
+projects/*/.swc
+projects/*/dist
+projects/*/coverage
+projects/*/node_modules

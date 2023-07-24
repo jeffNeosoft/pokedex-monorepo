@@ -1,0 +1,35 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "scripts": {
+    "bootstrap": "yarn && lerna bootstrap",
+    "compile-utils": "lerna run --scope @pokedex/utils --stream compile",
+    "compile-components": "lerna run --scope @pokedex/components --stream compile",
+    "compile": "yarn compile-utils && yarn compile-components",
+    "setup":" yarn && yarn compile && lerna bootstrap",
+    "lint": "lerna run lint --stream",
+    "storybook":"lerna run --scope @pokedex/components storybook",
+    "test": "lerna run test --stream --parallel",
+    "dev": "lerna run --scope pokedex dev ",
+    "build": "lerna run --scope pokedex --stream build",
+    "production": "lerna run --scope pokedex start ",
+    "prepare": "husky install",
+    "lerna-dockerize": "lerna-dockerize"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "husky": "^8.0.0",
+    "lerna": "^6.6.2",
+    "eslint": "8.41.0",
+    "typescript": "^4.4.4",
+    "@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^14.0.0"
+  },
+  "dependencies": {
+    "lerna-dockerize": "^1.0.9"
+  }
+}
