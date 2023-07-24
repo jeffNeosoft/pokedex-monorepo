@@ -19,6 +19,7 @@ This repository contains a Pokedex project created using React.js and organized 
   - [utils](#utils)
 - [Projects](#projects)
   - [pokedex](#pokedex)
+- [Appliction Scripts](#application-scripts)
 - [Contributing](#contributing)
 
 ## Getting Started
