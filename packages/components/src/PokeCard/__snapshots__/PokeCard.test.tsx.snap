@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component Renders the card successfully 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1ms03a4-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiBox-root css-1q75yu9"
+    >
+      <div
+        class="MuiBox-root css-k9rf7z"
+      >
+        <div
+          class="MuiBox-root css-z3zg3m"
+        >
+          <div
+            class="MuiBox-root css-syuk68"
+            data-testid="pokeball"
+          >
+            <div
+              class="MuiBox-root css-wlkd4e"
+            />
+          </div>
+        </div>
+      </div>
+      <img
+        class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1x1fx0l-MuiCardMedia-root"
+        loading="lazy"
+        src="Raichu.jpg"
+        title="Raichu"
+      />
+    </div>
+    <div
+      class="MuiBox-root css-14pk3wm"
+    >
+      <div
+        class="MuiBox-root css-7175pe"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-caption css-190nz9y-MuiTypography-root"
+        >
+          <p>
+            attack
+          </p>
+          <p>
+            10
+          </p>
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-qj0d3u-MuiTypography-root"
+    >
+      Raichu
+    </div>
+    <div
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-1ggw9ik"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+        >
+          <div
+            class="MuiBox-root css-1cxz5bq"
+          >
+            poison
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

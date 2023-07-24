@@ -3,13 +3,13 @@
 exports[`Table rendering and Functionality calls onRowClick when a row is clicked 1`] = `
 <div>
   <div
-    style="height: 85vh; width: 100%;"
+    class="MuiBox-root css-okmpd4"
   >
     <div
-      aria-colcount="2"
+      aria-colcount="1"
       aria-multiselectable="false"
       aria-rowcount="7"
-      class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-1kd2aw4-MuiDataGrid-root"
+      class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-5l4knl-MuiDataGrid-root"
       role="grid"
     >
       <div
@@ -31,9 +31,8 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
             >
               <div
                 aria-colindex="1"
-                aria-label="Name"
                 aria-sort="none"
-                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
+                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignCenter MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
                 data-field="name"
                 role="columnheader"
                 style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
@@ -49,13 +48,11 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                     <div
                       class="MuiDataGrid-columnHeaderTitleContainerContent"
                     >
-                      <div
-                        aria-label=""
-                        class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                        data-mui-internal-clone-element="true"
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
                       >
-                        Name
-                      </div>
+                        PokeName
+                      </h5>
                     </div>
                     <div
                       class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
@@ -93,109 +90,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                       aria-label="Menu"
                       class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
                       data-mui-internal-clone-element="true"
-                      id=":rh:"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
-                        data-testid="TripleDotsVerticalIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-                        />
-                      </svg>
-                      <span
-                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <div
-                  class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--sideRight"
-                  style="min-height: 56px; opacity: 1;"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-i4bv87-MuiSvgIcon-root"
-                    data-testid="SeparatorIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M11 19V5h2v14z"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div
-                aria-colindex="2"
-                aria-label="Url"
-                aria-sort="none"
-                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignRight MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
-                data-field="url"
-                role="columnheader"
-                style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
-                tabindex="-1"
-              >
-                <div
-                  class="MuiDataGrid-columnHeaderDraggableContainer"
-                  draggable="false"
-                >
-                  <div
-                    class="MuiDataGrid-columnHeaderTitleContainer"
-                  >
-                    <div
-                      class="MuiDataGrid-columnHeaderTitleContainerContent"
-                    >
-                      <div
-                        aria-label=""
-                        class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                        data-mui-internal-clone-element="true"
-                      >
-                        Url
-                      </div>
-                    </div>
-                    <div
-                      class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
-                    >
-                      <button
-                        aria-label="Sort"
-                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
-                        tabindex="-1"
-                        title="Sort"
-                        type="button"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-ptiqhd-MuiSvgIcon-root"
-                          data-testid="ArrowUpwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
-                          />
-                        </svg>
-                        <span
-                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                        />
-                      </button>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiDataGrid-menuIcon"
-                  >
-                    <button
-                      aria-expanded="false"
-                      aria-haspopup="menu"
-                      aria-label="Menu"
-                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
-                      data-mui-internal-clone-element="true"
-                      id=":rn:"
+                      id=":ra:"
                       tabindex="-1"
                       type="button"
                     >
@@ -252,7 +147,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                 aria-rowindex="2"
                 aria-selected="true"
                 class="MuiDataGrid-row Mui-selected"
-                data-id="Charmander"
+                data-id="1"
                 data-rowindex="0"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -260,7 +155,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -274,29 +169,12 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                     Charmander
                   </div>
                 </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/charmander"
-                  >
-                    https//pokemon.com/charmander
-                  </div>
-                </div>
               </div>
               <div
                 aria-rowindex="3"
                 aria-selected="false"
                 class="MuiDataGrid-row"
-                data-id="Charmeleon"
+                data-id="2"
                 data-rowindex="1"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -304,7 +182,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -318,29 +196,12 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                     Charmeleon
                   </div>
                 </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/charmeleon"
-                  >
-                    https//pokemon.com/charmeleon
-                  </div>
-                </div>
               </div>
               <div
                 aria-rowindex="4"
                 aria-selected="false"
                 class="MuiDataGrid-row"
-                data-id="Charizard"
+                data-id="3"
                 data-rowindex="2"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -348,7 +209,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -360,23 +221,6 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
                     title="Charizard"
                   >
                     Charizard
-                  </div>
-                </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/Charizard"
-                  >
-                    https//pokemon.com/Charizard
                   </div>
                 </div>
               </div>
@@ -404,7 +248,7 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
             <p
               class="MuiTablePagination-displayedRows css-levciy-MuiTablePagination-displayedRows"
             >
-              1–2 of 2
+              1–6 of 6
             </p>
             <div
               class="MuiTablePagination-actions"
@@ -461,13 +305,13 @@ exports[`Table rendering and Functionality calls onRowClick when a row is clicke
 exports[`Table rendering and Functionality renders the DataGrid component with correct props 1`] = `
 <div>
   <div
-    style="height: 85vh; width: 100%;"
+    class="MuiBox-root css-okmpd4"
   >
     <div
-      aria-colcount="2"
+      aria-colcount="1"
       aria-multiselectable="false"
       aria-rowcount="7"
-      class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-1kd2aw4-MuiDataGrid-root"
+      class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-5l4knl-MuiDataGrid-root"
       role="grid"
     >
       <div
@@ -489,9 +333,8 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
             >
               <div
                 aria-colindex="1"
-                aria-label="Name"
                 aria-sort="none"
-                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
+                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignCenter MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
                 data-field="name"
                 role="columnheader"
                 style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
@@ -507,13 +350,11 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                     <div
                       class="MuiDataGrid-columnHeaderTitleContainerContent"
                     >
-                      <div
-                        aria-label=""
-                        class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                        data-mui-internal-clone-element="true"
+                      <h5
+                        class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
                       >
-                        Name
-                      </div>
+                        PokeName
+                      </h5>
                     </div>
                     <div
                       class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
@@ -589,108 +430,6 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                   </svg>
                 </div>
               </div>
-              <div
-                aria-colindex="2"
-                aria-label="Url"
-                aria-sort="none"
-                class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignRight MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
-                data-field="url"
-                role="columnheader"
-                style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
-                tabindex="-1"
-              >
-                <div
-                  class="MuiDataGrid-columnHeaderDraggableContainer"
-                  draggable="false"
-                >
-                  <div
-                    class="MuiDataGrid-columnHeaderTitleContainer"
-                  >
-                    <div
-                      class="MuiDataGrid-columnHeaderTitleContainerContent"
-                    >
-                      <div
-                        aria-label=""
-                        class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                        data-mui-internal-clone-element="true"
-                      >
-                        Url
-                      </div>
-                    </div>
-                    <div
-                      class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
-                    >
-                      <button
-                        aria-label="Sort"
-                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
-                        tabindex="-1"
-                        title="Sort"
-                        type="button"
-                      >
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall MuiDataGrid-sortIcon css-ptiqhd-MuiSvgIcon-root"
-                          data-testid="ArrowUpwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"
-                          />
-                        </svg>
-                        <span
-                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                        />
-                      </button>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiDataGrid-menuIcon"
-                  >
-                    <button
-                      aria-expanded="false"
-                      aria-haspopup="menu"
-                      aria-label="Menu"
-                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
-                      data-mui-internal-clone-element="true"
-                      id=":r9:"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
-                        data-testid="TripleDotsVerticalIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-                        />
-                      </svg>
-                      <span
-                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                      />
-                    </button>
-                  </div>
-                </div>
-                <div
-                  class="MuiDataGrid-columnSeparator MuiDataGrid-columnSeparator--sideRight"
-                  style="min-height: 56px; opacity: 1;"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiDataGrid-iconSeparator css-i4bv87-MuiSvgIcon-root"
-                    data-testid="SeparatorIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M11 19V5h2v14z"
-                    />
-                  </svg>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -710,7 +449,7 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                 aria-rowindex="2"
                 aria-selected="false"
                 class="MuiDataGrid-row"
-                data-id="Charmander"
+                data-id="1"
                 data-rowindex="0"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -718,7 +457,7 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -732,29 +471,12 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                     Charmander
                   </div>
                 </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/charmander"
-                  >
-                    https//pokemon.com/charmander
-                  </div>
-                </div>
               </div>
               <div
                 aria-rowindex="3"
                 aria-selected="false"
                 class="MuiDataGrid-row"
-                data-id="Charmeleon"
+                data-id="2"
                 data-rowindex="1"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -762,7 +484,7 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -776,29 +498,12 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                     Charmeleon
                   </div>
                 </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/charmeleon"
-                  >
-                    https//pokemon.com/charmeleon
-                  </div>
-                </div>
               </div>
               <div
                 aria-rowindex="4"
                 aria-selected="false"
                 class="MuiDataGrid-row"
-                data-id="Charizard"
+                data-id="3"
                 data-rowindex="2"
                 role="row"
                 style="max-height: 52px; min-height: 52px;"
@@ -806,7 +511,7 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                 <div
                   aria-colindex="1"
                   aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                  class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                   data-colindex="0"
                   data-field="name"
                   role="cell"
@@ -818,23 +523,6 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
                     title="Charizard"
                   >
                     Charizard
-                  </div>
-                </div>
-                <div
-                  aria-colindex="2"
-                  aria-colspan="1"
-                  class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                  data-colindex="1"
-                  data-field="url"
-                  role="cell"
-                  style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                  tabindex="-1"
-                >
-                  <div
-                    class="MuiDataGrid-cellContent"
-                    title="https//pokemon.com/Charizard"
-                  >
-                    https//pokemon.com/Charizard
                   </div>
                 </div>
               </div>
@@ -858,7 +546,7 @@ exports[`Table rendering and Functionality renders the DataGrid component with c
             <p
               class="MuiTablePagination-displayedRows css-levciy-MuiTablePagination-displayedRows"
             >
-              1–2 of 2
+              1–6 of 6
             </p>
             <div
               class="MuiTablePagination-actions"

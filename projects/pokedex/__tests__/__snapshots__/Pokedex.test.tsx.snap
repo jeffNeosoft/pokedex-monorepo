@@ -1,16 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pokemon-list List rendered successfully 1`] = `
+exports[`Test cases for Pokedex List render 1`] = `
 <div>
-  <div>
+  <div
+    class="MuiBox-root css-r20d3a"
+  >
     <div
-      style="height: 85vh; width: 100%;"
+      class="MuiBox-root css-okmpd4"
     >
       <div
         aria-colcount="2"
         aria-multiselectable="false"
         aria-rowcount="3"
-        class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-1kd2aw4-MuiDataGrid-root"
+        class="MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-5l4knl-MuiDataGrid-root"
         role="grid"
       >
         <div
@@ -32,10 +34,9 @@ exports[`pokemon-list List rendered successfully 1`] = `
               >
                 <div
                   aria-colindex="1"
-                  aria-label="Name"
                   aria-sort="none"
-                  class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
-                  data-field="name"
+                  class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignCenter MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
+                  data-field="id"
                   role="columnheader"
                   style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
                   tabindex="0"
@@ -50,13 +51,11 @@ exports[`pokemon-list List rendered successfully 1`] = `
                       <div
                         class="MuiDataGrid-columnHeaderTitleContainerContent"
                       >
-                        <div
-                          aria-label=""
-                          class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                          data-mui-internal-clone-element="true"
+                        <h5
+                          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
                         >
-                          Name
-                        </div>
+                          Poke-Id
+                        </h5>
                       </div>
                       <div
                         class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
@@ -134,10 +133,9 @@ exports[`pokemon-list List rendered successfully 1`] = `
                 </div>
                 <div
                   aria-colindex="2"
-                  aria-label="Url"
                   aria-sort="none"
-                  class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignRight MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
-                  data-field="url"
+                  class="MuiDataGrid-columnHeader MuiDataGrid-columnHeader--alignCenter MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor"
+                  data-field="name"
                   role="columnheader"
                   style="height: 56px; width: 0px; min-width: 0; max-width: 0;"
                   tabindex="-1"
@@ -152,13 +150,11 @@ exports[`pokemon-list List rendered successfully 1`] = `
                       <div
                         class="MuiDataGrid-columnHeaderTitleContainerContent"
                       >
-                        <div
-                          aria-label=""
-                          class="MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
-                          data-mui-internal-clone-element="true"
+                        <h5
+                          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
                         >
-                          Url
-                        </div>
+                          Pokemon Name
+                        </h5>
                       </div>
                       <div
                         class="MuiDataGrid-iconButtonContainer css-ltf0zy-MuiDataGrid-iconButtonContainer"
@@ -196,7 +192,7 @@ exports[`pokemon-list List rendered successfully 1`] = `
                         aria-label="Menu"
                         class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiDataGrid-menuIconButton css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
                         data-mui-internal-clone-element="true"
-                        id=":r9:"
+                        id=":r8:"
                         tabindex="-1"
                         type="button"
                       >
@@ -261,8 +257,22 @@ exports[`pokemon-list List rendered successfully 1`] = `
                   <div
                     aria-colindex="1"
                     aria-colspan="1"
-                    class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                    class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                     data-colindex="0"
+                    data-field="id"
+                    role="cell"
+                    style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="MuiDataGrid-cellContent"
+                    />
+                  </div>
+                  <div
+                    aria-colindex="2"
+                    aria-colspan="1"
+                    class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
+                    data-colindex="1"
                     data-field="name"
                     role="cell"
                     style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
@@ -273,23 +283,6 @@ exports[`pokemon-list List rendered successfully 1`] = `
                       title="bulbasaur"
                     >
                       bulbasaur
-                    </div>
-                  </div>
-                  <div
-                    aria-colindex="2"
-                    aria-colspan="1"
-                    class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                    data-colindex="1"
-                    data-field="url"
-                    role="cell"
-                    style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                    tabindex="-1"
-                  >
-                    <div
-                      class="MuiDataGrid-cellContent"
-                      title="https://pokeapi.co/api/v2/pokemon/1/"
-                    >
-                      https://pokeapi.co/api/v2/pokemon/1/
                     </div>
                   </div>
                 </div>
@@ -305,8 +298,25 @@ exports[`pokemon-list List rendered successfully 1`] = `
                   <div
                     aria-colindex="1"
                     aria-colspan="1"
-                    class="MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor"
+                    class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
                     data-colindex="0"
+                    data-field="id"
+                    role="cell"
+                    style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="MuiDataGrid-cellContent"
+                      title="2"
+                    >
+                      2
+                    </div>
+                  </div>
+                  <div
+                    aria-colindex="2"
+                    aria-colspan="1"
+                    class="MuiDataGrid-cell MuiDataGrid-cell--textCenter MuiDataGrid-withBorderColor"
+                    data-colindex="1"
                     data-field="name"
                     role="cell"
                     style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
@@ -317,23 +327,6 @@ exports[`pokemon-list List rendered successfully 1`] = `
                       title="ivysaur"
                     >
                       ivysaur
-                    </div>
-                  </div>
-                  <div
-                    aria-colindex="2"
-                    aria-colspan="1"
-                    class="MuiDataGrid-cell MuiDataGrid-cell--textRight MuiDataGrid-withBorderColor"
-                    data-colindex="1"
-                    data-field="url"
-                    role="cell"
-                    style="min-width: 0; max-width: 0; min-height: 52px; max-height: 52px;"
-                    tabindex="-1"
-                  >
-                    <div
-                      class="MuiDataGrid-cellContent"
-                      title="https://pokeapi.co/api/v2/pokemon/2/"
-                    >
-                      https://pokeapi.co/api/v2/pokemon/2/
                     </div>
                   </div>
                 </div>

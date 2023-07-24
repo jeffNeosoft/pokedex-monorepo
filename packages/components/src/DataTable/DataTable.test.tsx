@@ -25,12 +25,12 @@ describe("Table rendering and Functionality", () => {
         },
       },
     ],
-    paginationModel: { page: 1, pageSize: 10 },
+    paginationModel: { page: 1, pageSize: 15 },
     isLoading: false,
     rowCount: 6,
     onRowClick: jest.fn(),
     paginationModelChange: jest.fn(),
-    getRowId: jest.fn(),
+    getRowId: (row)=>row.id,
   };
 
   it("renders the DataGrid component with correct props", () => {
