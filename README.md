@@ -80,7 +80,7 @@ yarn dev
 yarn production
 ```
 
-3. Pun the appliction in docker:
+3. Run the appliction in docker:
 
 ```bash
 # Image Creation
